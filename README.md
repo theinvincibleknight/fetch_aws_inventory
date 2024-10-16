@@ -1,0 +1,1 @@
+# fetch_aws_inventory
