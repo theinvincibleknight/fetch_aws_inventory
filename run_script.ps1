@@ -1,4 +1,4 @@
-$outputFile = "C:\Users\Akshay Hegde\Downloads\Files\AWS_Inventory.xlsx"
+$outputFile = "C:\Users\Downloads\Files\AWS_Inventory.xlsx"
 $profiles = @("inventory-uat", "inventory-dev", "inventory-network", "inventory-prod", "inventory-shared", "inventory-admin")
 
 foreach ($profile in $profiles) {
@@ -9,7 +9,7 @@ foreach ($profile in $profiles) {
     Write-Output "AWS Profile = $profile"
 
     # Run the runscript.bat batch script
-    & "C:\Users\Akshay Hegde\OneDrive - SNV Aviation Pvt Ltd\Documents\VisualStudio\Scripts\fetch_aws_inventory\scripts\runscript.bat"
+    & "C:\Users\VisualStudio\Scripts\fetch_aws_inventory\scripts\runscript.bat"
 
     # Get the current month and year
     $currentDate = Get-Date
