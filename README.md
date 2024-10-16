@@ -69,6 +69,10 @@ Running apigw.ps1
 .
 ```
 
+## License
+
+This project is licensed under the MIT License.
+
 ## Acknowledgments
 
 - AWS for providing the cloud infrastructure.
